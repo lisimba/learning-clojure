@@ -2,8 +2,8 @@
 
 ; merging elemtns of map
 (defn merge-these
-  [list]
-  (merge list))
+  [a & d]
+  (apply (merge a d)))
 
 (defn add-key-to-map
   [x]
